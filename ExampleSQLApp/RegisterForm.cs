@@ -147,7 +147,9 @@ namespace ExampleSQLApp
 
         private void ToLognForm_Click(object sender, EventArgs e)
         {
-            Close();
+            LoginForm LgnForm = new LoginForm();
+            LgnForm.Show();
+            Hide();
         }
     }
 }
